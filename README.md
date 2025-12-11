@@ -17,14 +17,14 @@ It ingests property data (CSV), normalizes key attributes, and enriches each lis
 
 ## Quick start
 
-1. Create & activate a virtual environment:
+1. Create & activate a virtual environment in the root directory:
 
 ```bash
-python -m venv venv
+python -m venv myenv
 # macOS / Linux
-source venv/bin/activate
+source myenv/bin/activate
 # Windows (PowerShell)
-# venv\Scripts\Activate.ps1
+#myenv\scripts\activate
 ```
 
 2. Install dependencies:
@@ -32,14 +32,10 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-3. Set your OpenAI API key and model:
-
-```bash
-export OPENAI_API_KEY=sk-...
-OPENAI_MODEL=your_openai_model
-# Or create a .env file with OPENAI_API_KEY=...
-
-```
+3. Set your OpenAI API key and OpeenAI model .env file in root directory:
+      
+    OPENAI_API_KEY=your_api_keey
+    OPENAI_MODEL=your_openai_model
 
 4. Put you data in `sample_listings.csv` in `sample_data/`.
 
