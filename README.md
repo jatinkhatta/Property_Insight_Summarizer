@@ -4,6 +4,7 @@ The Property Insight Summarizer is a lightweight data-processing pipeline that t
 It ingests property data (CSV), normalizes key attributes, and enriches each listing with AI-generated summaries, investment scoring, risks, and recommended actions.
 
 # Project Structure
+```bash
 │ └─ sample_listing_pages/ # optional local HTMLs if you prefer
 ├─ src/
 │ ├─ ingest.py
@@ -14,7 +15,7 @@ It ingests property data (CSV), normalizes key attributes, and enriches each lis
 └─ outputs/
 ├─ enriched_listings.json
 └─ enriched_listings.csv
-
+```
 ## Quick start
 
 1. Create & activate a virtual environment in the root directory:
@@ -34,9 +35,9 @@ pip install -r requirements.txt
 ```
 3. Set your OpenAI API key and OpeenAI model .env file in root directory:
       
-OPENAI_API_KEY=your_api_key
+   OPENAI_API_KEY=your_api_key
 
-OPENAI_MODEL=your_openai_model
+   OPENAI_MODEL=your_openai_model
 
 4. Put you data in `sample_listings.csv` in `sample_data/`.
 
