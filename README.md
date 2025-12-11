@@ -5,7 +5,9 @@ It ingests property data (CSV), normalizes key attributes, and enriches each lis
 
 # Project Structure
 ```bash
-│ └─ sample_listing_pages/
+Property_Insight_Summarizer
+│─ sample_data/
+│  └─ sample_listings.csv
 ├─ src/
 │ ├─ ingest.py
 │ ├─ scrape_listings.py
@@ -13,8 +15,8 @@ It ingests property data (CSV), normalizes key attributes, and enriches each lis
 │ ├─ extract_llm.py
 │ └─ main.py
 └─ outputs/
-├─ enriched_listings.json
-└─ enriched_listings.csv
+    ├─ enriched_listings.json
+    └─ enriched_listings.csv
 ```
 ## Quick start
 
