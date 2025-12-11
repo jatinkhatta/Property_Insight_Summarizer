@@ -5,7 +5,7 @@ It ingests property data (CSV), normalizes key attributes, and enriches each lis
 
 # Project Structure
 ```bash
-│ └─ sample_listing_pages/ # optional local HTMLs if you prefer
+│ └─ sample_listing_pages/
 ├─ src/
 │ ├─ ingest.py
 │ ├─ scrape_listings.py
