@@ -34,8 +34,9 @@ pip install -r requirements.txt
 ```
 3. Set your OpenAI API key and OpeenAI model .env file in root directory:
       
-    OPENAI_API_KEY=your_api_keey
-    OPENAI_MODEL=your_openai_model
+OPENAI_API_KEY=your_api_key
+
+OPENAI_MODEL=your_openai_model
 
 4. Put you data in `sample_listings.csv` in `sample_data/`.
 
